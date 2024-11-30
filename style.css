@@ -7,8 +7,9 @@ body {
 	max-width: 48rem;
 	line-height: 1.5;
 	margin: 0 auto;
-	padding: 2rem;
+	padding: 1rem 2rem;
 	text-wrap: pretty;
+	overflow-x: hidden;
 }
 
 /* change background color for text so that the stars dont block readability */
@@ -33,8 +34,8 @@ a:hover {
 }
 
 footer {
-	position: fixed;
-	bottom: 2rem;
+	position: absolute;
+	bottom: 1rem;
 }
 
 canvas {
