@@ -66,32 +66,23 @@ const { title, description } = Astro.props;
 	<body class="prose">
 		<Header />
 		<main><slot /></main>
-		<button
-			id="load-giscus"
-			onclick="
-				const script = document.createElement('script');
-				script.id = 'giscus-script';
-				script.src = 'https://giscus.app/client.js';
-				script.setAttribute('data-repo', 'intergrav/devins.page');
-				script.setAttribute('data-repo-id', 'R_kgDONW1wiA');
-				script.setAttribute('data-category', 'giscus');
-				script.setAttribute('data-category-id', 'DIC_kwDONW1wiM4Cr7lb');
-				script.setAttribute('data-mapping', 'pathname');
-				script.setAttribute('data-strict', '1');
-				script.setAttribute('data-reactions-enabled', '1');
-				script.setAttribute('data-emit-metadata', '0');
-				script.setAttribute('data-input-position', 'bottom');
-				script.setAttribute('data-theme', 'https://devins.page/giscus-theme.css');
-				script.setAttribute('data-lang', 'en');
-				script.crossOrigin = 'anonymous';
-				script.async = true;
-				this.insertAdjacentElement('afterend', script);
-				this.remove();
-			"
-			type="button"
-			style="margin-block: 1rem; margin-left: auto; margin-right: auto; display:block"
-			>load giscus comments</button
-		>
+		<script
+			src="https://giscus.app/client.js"
+			data-repo="intergrav/devins.page"
+			data-repo-id="R_kgDONW1wiA"
+			data-category="giscus"
+			data-category-id="DIC_kwDONW1wiM4Cr7lb"
+			data-mapping="pathname"
+			data-strict="1"
+			data-reactions-enabled="0"
+			data-emit-metadata="0"
+			data-input-position="bottom"
+			data-theme="https://devins.page/giscus-theme.css"
+			data-lang="en"
+			data-loading="lazy"
+			crossorigin="anonymous"
+			async
+			data-astro-rerun></script>
 		<Footer />
 	</body>
 </html>
