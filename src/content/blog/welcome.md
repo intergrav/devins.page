@@ -1,7 +1,7 @@
 ---
 title: "the blog is up"
 description: "this is my first blog post! this is just a test post so i can make sure everything works"
-image: "/blog/welcome.gif"
+image: "/blog/welcome.webp"
 imageAlt: "uh oh"
 pubDate: 2025-06-23
 categories: ["meta"]

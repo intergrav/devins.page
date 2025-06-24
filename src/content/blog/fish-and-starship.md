@@ -1,7 +1,7 @@
 ---
 title: "check out fish shell (+ starship)"
 description: "a smart, user-friendly command line shell w/ a really good out-of-box experience"
-image: "/blog/fish-and-starship.png"
+image: "/blog/fish-and-starship.svg"
 imageAlt: "a picture of the fish and starship icons, with a plus symbol"
 pubDate: 2025-06-24
 categories: ["terminal", "fish", "starship", "productivity"]

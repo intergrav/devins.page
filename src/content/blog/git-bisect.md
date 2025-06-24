@@ -1,7 +1,7 @@
 ---
 title: "git bisect is very useful"
 description: "using binary search to find the commit that broke things"
-image: "/blog/git-bisect.png"
+image: "/blog/git-bisect.svg"
 imageAlt: "the git logo"
 pubDate: 2025-06-25
 categories: ["git", "debugging", "productivity"]
