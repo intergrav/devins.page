@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Badges from "../components/Badges.astro";
 ---
 
 <Layout
@@ -58,21 +59,5 @@ import Layout from "../layouts/Layout.astro";
 		>.
 	</p>
 
-	<div style="margin-block: 1em">
-		<a href="https://devins.page">
-			<img
-				src="https://raw.githubusercontent.com/intergrav/branding/refs/heads/main/personal/badge.svg"
-			/>
-		</a>
-		<a href="https://floof.gay">
-			<img src="https://floof.gay/img/badges/oli.svg" />
-		</a>
-		<a href="https://skye.vg">
-			<img src="https://skye.vg/button.png" />
-		</a>
-		<a href="https://freeplay.floof.company">
-			<img src="https://freeplay.floof.company/assets/buttons/free.gif" />
-		</a>
-		<img src="/badges/best_viewed_with_eyes.gif" />
-	</div>
+	<Badges />
 </Layout>
