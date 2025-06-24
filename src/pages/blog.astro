@@ -1,0 +1,39 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../layouts/Layout.astro";
+import BlogMeta from "../components/BlogMeta.astro";
+
+const posts = await getCollection("blog");
+posts.sort(
+	(a, b) => (b.data.pubDate?.valueOf() ?? 0) - (a.data.pubDate?.valueOf() ?? 0),
+);
+---
+
+<Layout title="blog" description="my personal blog">
+	<h1>blog</h1>
+	{
+		posts.map((post) => (
+			<article style="margin-block: 1rem; padding-left: 1rem; padding-right: 1rem; background-color: var(--sc-prose-bg); border: 1px solid var(--sc-prose-bd)">
+				{post.data.image && (
+					<img
+						src={post.data.image}
+						alt={post.data.imageAlt || ""}
+						style="float: right; margin-left: 1rem; margin-block: 1rem; max-height: 64px"
+						transition:name={`blog-image-${post.slug}`}
+					/>
+				)}
+				<h1 transition:name={`blog-title-${post.slug}`}>
+					<a href={`/blog/${post.slug}`}>{post.data.title}</a>
+				</h1>
+				<BlogMeta
+					pubDate={post.data.pubDate}
+					categories={post.data.categories}
+					slug={post.slug}
+				/>
+				<p transition:name={`blog-description-${post.slug}`}>
+					{post.data.description}
+				</p>
+			</article>
+		))
+	}
+</Layout>

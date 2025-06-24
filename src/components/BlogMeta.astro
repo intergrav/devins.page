@@ -1,0 +1,16 @@
+---
+const { pubDate, categories, slug } = Astro.props;
+---
+
+<p transition:name={`blog-meta-${slug}`}>
+	<small>
+		{
+			pubDate && (
+				<time datetime={pubDate.toISOString()}>
+					{pubDate.toLocaleDateString()}
+				</time>
+			)
+		}
+		{categories?.length && ` • ${categories.join(", ")}`}
+	</small>
+</p>
