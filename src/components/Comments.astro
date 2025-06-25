@@ -1,20 +1,24 @@
-<section class="giscus"></section>
-<script>
-	document.addEventListener("astro:page-load", () => {
-		const script = document.createElement("script");
-		script.src = "https://giscus.app/client.js";
-		script.setAttribute("data-repo", "intergrav/devins.page");
-		script.setAttribute("data-repo-id", "R_kgDONW1wiA");
-		script.setAttribute("data-category", "giscus");
-		script.setAttribute("data-category-id", "DIC_kwDONW1wiM4Cr7lb");
-		script.setAttribute("data-mapping", "pathname");
-		script.setAttribute("data-strict", "1");
-		script.setAttribute("data-reactions-enabled", "0");
-		script.setAttribute("data-emit-metadata", "1");
-		script.setAttribute("data-input-position", "bottom");
-		script.setAttribute("data-theme", "https://devins.page/sc-giscus.css");
-		script.setAttribute("data-lang", "en");
-		script.crossOrigin = "anonymous";
-		document.body.appendChild(script);
-	});
-</script>
+<section class="giscus">
+	<script>
+		function Comments() {
+			// the giscus stuff is a bit hacky but i have to do this so it works i have no idea why
+			const script = document.createElement("script");
+			script.src = "https://giscus.app/client.js";
+			script.setAttribute("data-repo", "intergrav/devins.page");
+			script.setAttribute("data-repo-id", "R_kgDONW1wiA");
+			script.setAttribute("data-category", "giscus");
+			script.setAttribute("data-category-id", "DIC_kwDONW1wiM4Cr7lb");
+			script.setAttribute("data-mapping", "pathname");
+			script.setAttribute("data-strict", "1");
+			script.setAttribute("data-reactions-enabled", "0");
+			script.setAttribute("data-emit-metadata", "1");
+			script.setAttribute("data-input-position", "bottom");
+			script.setAttribute("data-theme", "https://devins.page/sc-giscus.css");
+			script.setAttribute("data-lang", "en");
+			script.crossOrigin = "anonymous";
+			document.body.appendChild(script);
+		}
+		Comments();
+		document.addEventListener("astro:page-load", Comments);
+	</script>
+</section>
