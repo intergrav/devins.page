@@ -65,27 +65,37 @@ const { title, description } = Astro.props;
 	</head>
 	<body class="prose">
 		<Header />
-		<main><slot /></main>
-		<div class="giscus"></div>
+		<main>
+			<section>
+				<slot />
+			</section>
+			<section class="giscus"></section>
+		</main>
 		<Footer />
 	</body>
 </html>
 
-<script
-	src="https://giscus.app/client.js"
-	data-repo="intergrav/devins.page"
-	data-repo-id="R_kgDONW1wiA"
-	data-category="giscus"
-	data-category-id="DIC_kwDONW1wiM4Cr7lb"
-	data-mapping="pathname"
-	data-strict="1"
-	data-reactions-enabled="0"
-	data-emit-metadata="0"
-	data-input-position="bottom"
-	data-theme="https://devins.page/sc-giscus.css"
-	data-lang="en"
-	data-loading="lazy"
-	crossorigin="anonymous"
-	async
-	is:inline
-	data-astro-rerun></script>
+<script is:inline data-astro-rerun>
+	(function () {
+		function loadGiscus() {
+			var s = document.createElement("script");
+			s.src = "https://giscus.app/client.js";
+			s.async = true;
+			s.crossOrigin = "anonymous";
+			s.setAttribute("data-repo", "intergrav/devins.page");
+			s.setAttribute("data-repo-id", "R_kgDONW1wiA");
+			s.setAttribute("data-category", "giscus");
+			s.setAttribute("data-category-id", "DIC_kwDONW1wiM4Cr7lb");
+			s.setAttribute("data-mapping", "pathname");
+			s.setAttribute("data-strict", "1");
+			s.setAttribute("data-reactions-enabled", "0");
+			s.setAttribute("data-emit-metadata", "0");
+			s.setAttribute("data-input-position", "bottom");
+			s.setAttribute("data-theme", "https://devins.page/sc-giscus.css");
+			s.setAttribute("data-lang", "en");
+			s.setAttribute("data-loading", "lazy");
+			document.body.appendChild(s);
+		}
+		loadGiscus();
+	})();
+</script>
