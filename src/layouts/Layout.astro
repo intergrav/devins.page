@@ -1,6 +1,7 @@
 ---
 import "@intergrav/slight.css";
 import "../styles/global.css";
+import Comments from "../components/Comments.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import { ClientRouter } from "astro:transitions";
@@ -69,33 +70,8 @@ const { title, description } = Astro.props;
 			<section>
 				<slot />
 			</section>
-			<section class="giscus"></section>
+			<Comments />
 		</main>
 		<Footer />
 	</body>
 </html>
-
-<script is:inline data-astro-rerun defer>
-	(function () {
-		function loadGiscus() {
-			var s = document.createElement("script");
-			s.src = "https://giscus.app/client.js";
-			s.async = true;
-			s.crossOrigin = "anonymous";
-			s.setAttribute("data-repo", "intergrav/devins.page");
-			s.setAttribute("data-repo-id", "R_kgDONW1wiA");
-			s.setAttribute("data-category", "giscus");
-			s.setAttribute("data-category-id", "DIC_kwDONW1wiM4Cr7lb");
-			s.setAttribute("data-mapping", "pathname");
-			s.setAttribute("data-strict", "1");
-			s.setAttribute("data-reactions-enabled", "0");
-			s.setAttribute("data-emit-metadata", "0");
-			s.setAttribute("data-input-position", "bottom");
-			s.setAttribute("data-theme", "https://devins.page/sc-giscus.css");
-			s.setAttribute("data-lang", "en");
-			s.setAttribute("data-loading", "lazy");
-			document.body.appendChild(s);
-		}
-		loadGiscus();
-	})();
-</script>
