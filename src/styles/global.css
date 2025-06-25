@@ -411,7 +411,3 @@ html[data-theme] hr {
 	border-color: var(--sc-prose-bd);
 	border-style: solid;
 }
-
-.giscus {
-	margin-block: 1rem;
-}
