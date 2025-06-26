@@ -14,19 +14,9 @@ const commitHash = (() => {
 <footer
 	style="display: flex; justify-content: space-between; align-items: center"
 >
-	<select id="theme-selector">
-		<option value="default">default</option>
-		<option value="catppuccin-mocha">catppuccin mocha</option>
-		<option value="catppuccin-macchiato">catppuccin macchiato</option>
-		<option value="catppuccin-frappe">catppuccin frappe</option>
-		<option value="gruvbox-material-hard">gruvbox material hard</option>
-		<option value="gruvbox-material-medium">gruvbox material medium</option>
-		<option value="gruvbox-material-soft">gruvbox material soft</option>
-		<option value="gruvbox-hard">gruvbox hard</option>
-		<option value="gruvbox-medium">gruvbox medium</option>
-		<option value="gruvbox-soft">gruvbox soft</option>
-		<option value="solarized">solarized</option>
-	</select>
+	<nav>
+		subscribe to <a href="/rss.xml">rss</a>
+	</nav>
 	<div style="text-align: right">
 		<code
 			><a href={`https://github.com/intergrav/devins.page/commit/${commitHash}`}

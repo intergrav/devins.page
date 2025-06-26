@@ -24,11 +24,6 @@ const { title, description } = Astro.props;
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content={Astro.url.pathname} />
 
-		<link
-			rel="icon"
-			type="image/png"
-			href="https://github.com/intergrav.png?size=64"
-		/>
 		<link rel="sitemap" href="/sitemap-index.xml" />
 		<link
 			rel="alternate"
@@ -38,31 +33,6 @@ const { title, description } = Astro.props;
 		/>
 
 		<ClientRouter />
-		<script is:inline>
-			(function () {
-				function applyTheme() {
-					const theme = localStorage.getItem("theme") || "default";
-					document.documentElement[
-						theme === "default" ? "removeAttribute" : "setAttribute"
-					]("data-theme", theme);
-				}
-
-				function init() {
-					const selector = document.getElementById("theme-selector");
-					if (selector) {
-						selector.value = localStorage.getItem("theme") || "default";
-						selector.onchange = () => {
-							localStorage.setItem("theme", selector.value);
-							applyTheme();
-						};
-					}
-					applyTheme();
-				}
-
-				init();
-				document.addEventListener("astro:page-load", init);
-			})();
-		</script>
 	</head>
 	<body class="prose">
 		<Header />

@@ -1,0 +1,185 @@
+main {
+	--font-family-sans: system-ui, sans-serif;
+	--font-family-monospace:
+		ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas,
+		"DejaVu Sans Mono", monospace;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* a modified version of catppuccin's giscus theme for devins.page */
+main {
+	--color-prettylights-syntax-comment: #8c8fa1;
+	--color-prettylights-syntax-constant: #1e66f5;
+	--color-prettylights-syntax-entity: #1e66f5;
+	--color-prettylights-syntax-storage-modifier-import: #fe640b;
+	--color-prettylights-syntax-entity-tag: #179299;
+	--color-prettylights-syntax-keyword: #ea76cb;
+	--color-prettylights-syntax-string: #40a02b;
+	--color-prettylights-syntax-variable: #fe640b;
+	--color-prettylights-syntax-invalid-illegal-text: #d20f39;
+	--color-prettylights-syntax-invalid-illegal-bg: rgb(210 15 57 / 15%);
+	--color-prettylights-syntax-markup-heading: #179299;
+	--color-prettylights-syntax-markup-italic: #df8e1d;
+	--color-prettylights-syntax-markup-bold: #df8e1d;
+	--color-prettylights-syntax-markup-deleted-text: #4c4f69;
+	--color-prettylights-syntax-markup-deleted-bg: rgb(210 15 57 / 40%);
+	--color-prettylights-syntax-markup-inserted-text: #4c4f69;
+	--color-prettylights-syntax-markup-inserted-bg: rgb(64 160 43 / 40%);
+	--color-prettylights-syntax-markup-changed-text: #4c4f69;
+	--color-prettylights-syntax-markup-changed-bg: rgb(223 142 29 / 40%);
+	--color-prettylights-syntax-markup-ignored-text: #4c4f69;
+	--color-btn-text: #4c4f69;
+	--color-btn-bg: #ccd0da;
+	--color-btn-border: #bcc0cc;
+	--color-btn-hover-bg: #bcc0cc;
+	--color-btn-hover-border: #acb0be;
+	--color-btn-active-bg: #acb0be;
+	--color-btn-selected-bg: #acb0be;
+	--color-btn-counter-bg: #acb0be;
+	--color-btn-outline-text: #8839ef;
+	--color-btn-shadow: 0 0 transparent;
+	--color-btn-inset-shadow: 0 0 transparent;
+	--color-btn-primary-text: #eff1f5;
+	--color-btn-primary-bg: #40a02b;
+	--color-btn-primary-border: transparent;
+	--color-btn-primary-shadow: 0 0 transparent;
+	--color-btn-primary-inset-shadow: 0 0 transparent;
+	--color-btn-primary-hover-bg: #50c836;
+	--color-btn-primary-hover-border: #50c836;
+	--color-btn-primary-selected-bg: #50c836;
+	--color-btn-primary-selected-shadow: 0 0 transparent;
+	--color-btn-primary-disabled-text: #dce0e8;
+	--color-btn-primary-disabled-bg: rgb(64 160 43 / 40%);
+	--color-btn-primary-disabled-border: transparent;
+	--color-action-list-item-default-hover-bg: #bcc0cc;
+	--color-segmented-control-bg: #acb0be;
+	--color-segmented-control-button-bg: #eff1f5;
+	--color-segmented-control-button-selected-border: #9ca0b0;
+	--color-fg-default: #4c4f69;
+	--color-fg-muted: #5c5f77;
+	--color-fg-subtle: #5c5f77;
+	--color-canvas-default: #eff1f5;
+	--color-canvas-overlay: #ccd0da;
+	--color-canvas-inset: #dce0e8;
+	--color-canvas-subtle: #e6e9ef;
+	--color-border-default: #bcc0cc;
+	--color-border-muted: #ccd0da;
+	--color-neutral-muted: rgb(156 160 176 / 20%);
+	--color-accent-fg: hsl(266deg 85% 55%);
+	--color-accent-emphasis: #8839ef;
+	--color-accent-muted: rgb(136 57 239 / 40%);
+	--color-accent-subtle: rgb(136 57 239 / 15%);
+	--color-success-fg: #40a02b;
+	--color-attention-fg: #fe640b;
+	--color-attention-muted: #8839ef;
+	--color-attention-subtle: rgb(136 57 239 / 15%);
+	--color-danger-fg: #d20f39;
+	--color-danger-muted: rgb(210 15 57 / 40%);
+	--color-danger-subtle: rgb(210 15 57 / 20%);
+	--color-primer-shadow-inset: 0 0 transparent;
+	--color-scale-gray-7: #bcc0cc;
+	--color-scale-blue-8: #0a4ed6;
+	--color-social-reaction-bg-hover: var(--color-scale-gray-7);
+	--color-social-reaction-bg-reacted-hover: var(--color-scale-blue-8);
+}
+
+main .gsc-comment-box-textarea::placeholder {
+	color: #6c6f85;
+}
+
+main .gsc-loading-image {
+	background-image: none;
+}
+
+@media (prefers-color-scheme: dark) {
+	main {
+		--color-prettylights-syntax-comment: #7f849c;
+		--color-prettylights-syntax-constant: #89b4fa;
+		--color-prettylights-syntax-entity: #89b4fa;
+		--color-prettylights-syntax-storage-modifier-import: #fab387;
+		--color-prettylights-syntax-entity-tag: #94e2d5;
+		--color-prettylights-syntax-keyword: #f5c2e7;
+		--color-prettylights-syntax-string: #a6e3a1;
+		--color-prettylights-syntax-variable: #fab387;
+		--color-prettylights-syntax-invalid-illegal-text: #f38ba8;
+		--color-prettylights-syntax-invalid-illegal-bg: rgb(243 139 168 / 15%);
+		--color-prettylights-syntax-markup-heading: #94e2d5;
+		--color-prettylights-syntax-markup-italic: #f9e2af;
+		--color-prettylights-syntax-markup-bold: #f9e2af;
+		--color-prettylights-syntax-markup-deleted-text: #cdd6f4;
+		--color-prettylights-syntax-markup-deleted-bg: rgb(243 139 168 / 40%);
+		--color-prettylights-syntax-markup-inserted-text: #cdd6f4;
+		--color-prettylights-syntax-markup-inserted-bg: rgb(166 227 161 / 40%);
+		--color-prettylights-syntax-markup-changed-text: #cdd6f4;
+		--color-prettylights-syntax-markup-changed-bg: rgb(249 226 175 / 40%);
+		--color-prettylights-syntax-markup-ignored-text: #cdd6f4;
+		--color-btn-text: #cdd6f4;
+		--color-btn-bg: #313244;
+		--color-btn-border: #45475a;
+		--color-btn-hover-bg: #45475a;
+		--color-btn-hover-border: #585b70;
+		--color-btn-active-bg: #585b70;
+		--color-btn-selected-bg: #585b70;
+		--color-btn-counter-bg: #585b70;
+		--color-btn-outline-text: #cba6f7;
+		--color-btn-shadow: 0 0 transparent;
+		--color-btn-inset-shadow: 0 0 transparent;
+		--color-btn-primary-text: #1e1e2e;
+		--color-btn-primary-bg: #a6e3a1;
+		--color-btn-primary-border: transparent;
+		--color-btn-primary-shadow: 0 0 transparent;
+		--color-btn-primary-inset-shadow: 0 0 transparent;
+		--color-btn-primary-hover-bg: #cbefc8;
+		--color-btn-primary-hover-border: #cbefc8;
+		--color-btn-primary-selected-bg: #cbefc8;
+		--color-btn-primary-selected-shadow: 0 0 transparent;
+		--color-btn-primary-disabled-text: #11111b;
+		--color-btn-primary-disabled-bg: rgb(166 227 161 / 40%);
+		--color-btn-primary-disabled-border: transparent;
+		--color-action-list-item-default-hover-bg: #45475a;
+		--color-segmented-control-bg: #585b70;
+		--color-segmented-control-button-bg: #1e1e2e;
+		--color-segmented-control-button-selected-border: #6c7086;
+		--color-fg-default: #cdd6f4;
+		--color-fg-muted: #bac2de;
+		--color-fg-subtle: #bac2de;
+		--color-canvas-default: #1e1e2e;
+		--color-canvas-overlay: #313244;
+		--color-canvas-inset: #11111b;
+		--color-canvas-subtle: #181825;
+		--color-border-default: #45475a;
+		--color-border-muted: #313244;
+		--color-neutral-muted: rgb(108 112 134 / 40%);
+		--color-accent-fg: #cba6f7;
+		--color-accent-emphasis: #cba6f7;
+		--color-accent-muted: rgb(203 166 247 / 40%);
+		--color-accent-subtle: rgb(203 166 247 / 15%);
+		--color-success-fg: #a6e3a1;
+		--color-attention-fg: #fab387;
+		--color-attention-muted: #cba6f7;
+		--color-attention-subtle: rgb(203 166 247 / 15%);
+		--color-danger-fg: #f38ba8;
+		--color-danger-muted: rgb(243 139 168 / 40%);
+		--color-danger-subtle: rgb(243 139 168 / 20%);
+		--color-primer-shadow-inset: 0 0 transparent;
+		--color-scale-gray-7: #45475a;
+		--color-scale-blue-8: #5895f8;
+		--color-social-reaction-bg-hover: var(--color-scale-gray-7);
+		--color-social-reaction-bg-reacted-hover: var(--color-scale-blue-8);
+	}
+
+	main .gsc-comment-box-textarea::placeholder {
+		color: #a6adc8;
+	}
+
+	main .gsc-loading-image {
+		background-image: none;
+	}
+}
