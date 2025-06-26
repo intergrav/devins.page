@@ -13,12 +13,13 @@ posts.sort(
 	<h1>blog</h1>
 	{
 		posts.map((post) => (
-			<article style="margin-block: 1rem; padding-left: 1rem; padding-right: 1rem; background-color: var(--sc-prose-bg); border: 1px solid var(--sc-prose-bd)">
+			<article>
 				{post.data.image && (
 					<img
 						src={post.data.image}
 						alt={post.data.imageAlt || ""}
-						style="float: right; margin-left: 1rem; margin-block: 1rem; height: 64px"
+						class="floating-image"
+						style="height: 64px"
 						transition:name={`blog-image-${post.slug}`}
 					/>
 				)}

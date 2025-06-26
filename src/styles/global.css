@@ -4,7 +4,7 @@
 	--text: #4c4f69; /* text */
 	--accent: #fe640b; /* peach */
 	--sc-prose-bg: #e6e9ef; /* mantle */
-	--sc-prose-bd: #dce0e8; /* surface 0 */
+	--sc-prose-bd: #bcc0cc; /* surface 1 */
 }
 
 /* catppuccin mocha */
@@ -14,13 +14,28 @@
 		--text: #cdd6f4; /* text */
 		--accent: #fab387; /* peach */
 		--sc-prose-bg: #181825; /* mantle */
-		--sc-prose-bd: #313244; /* surface 0 */
+		--sc-prose-bd: #45475a; /* surface 1 */
 	}
 }
 
 body {
 	background-color: var(--bg);
 	color: var(--text);
+}
+
+blockquote,
+pre {
+	border-radius: 0.25rem;
+	border: 1px solid var(--sc-prose-bd);
+}
+
+article {
+	margin-block: 1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	background-color: var(--sc-prose-bg);
+	border-radius: 0.25rem;
+	border: 1px solid var(--sc-prose-bd);
 }
 
 a {
@@ -36,4 +51,19 @@ a:hover {
 hr {
 	border-color: var(--sc-prose-bd);
 	border-style: solid;
+}
+
+.floating-image {
+	float: right;
+	margin-left: 1rem;
+	margin-block: 1rem;
+	height: 128px;
+}
+
+@media (prefers-color-scheme: dark) {
+	.astro-code,
+	.astro-code span {
+		color: var(--shiki-dark) !important;
+		background-color: var(--shiki-dark-bg) !important;
+	}
 }
