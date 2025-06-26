@@ -6,11 +6,11 @@ main {
 }
 
 a {
-	text-decoration: none;
+	text-decoration: none !important;
 }
 
 a:hover {
-	text-decoration: underline;
+	text-decoration: underline !important;
 }
 
 /* a modified version of catppuccin's giscus theme for devins.page */
