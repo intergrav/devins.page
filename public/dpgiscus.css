@@ -43,7 +43,7 @@ main {
 	--color-btn-active-bg: #acb0be;
 	--color-btn-selected-bg: #acb0be;
 	--color-btn-counter-bg: #acb0be;
-	--color-btn-outline-text: #8839ef;
+	--color-btn-outline-text: #fe640b;
 	--color-btn-shadow: 0 0 transparent;
 	--color-btn-inset-shadow: 0 0 transparent;
 	--color-btn-primary-text: #eff1f5;
@@ -72,10 +72,10 @@ main {
 	--color-border-default: #bcc0cc;
 	--color-border-muted: #ccd0da;
 	--color-neutral-muted: rgb(156 160 176 / 20%);
-	--color-accent-fg: hsl(266deg 85% 55%);
-	--color-accent-emphasis: #8839ef;
-	--color-accent-muted: rgb(136 57 239 / 40%);
-	--color-accent-subtle: rgb(136 57 239 / 15%);
+	--color-accent-fg: #fe640b;
+	--color-accent-emphasis: #fe640b;
+	--color-accent-muted: rgb(136, 57, 239, /40%);
+	--color-accent-subtle: rgb(136, 57, 239, /15%);
 	--color-success-fg: #40a02b;
 	--color-attention-fg: #fe640b;
 	--color-attention-muted: #8839ef;
@@ -128,7 +128,7 @@ main .gsc-loading-image {
 		--color-btn-active-bg: #585b70;
 		--color-btn-selected-bg: #585b70;
 		--color-btn-counter-bg: #585b70;
-		--color-btn-outline-text: #cba6f7;
+		--color-btn-outline-text: #fab387;
 		--color-btn-shadow: 0 0 transparent;
 		--color-btn-inset-shadow: 0 0 transparent;
 		--color-btn-primary-text: #1e1e2e;
@@ -157,10 +157,10 @@ main .gsc-loading-image {
 		--color-border-default: #45475a;
 		--color-border-muted: #313244;
 		--color-neutral-muted: rgb(108 112 134 / 40%);
-		--color-accent-fg: #cba6f7;
-		--color-accent-emphasis: #cba6f7;
-		--color-accent-muted: rgb(203 166 247 / 40%);
-		--color-accent-subtle: rgb(203 166 247 / 15%);
+		--color-accent-fg: #fab387;
+		--color-accent-emphasis: #fab387;
+		--color-accent-muted: rgba(203, 166, 247, /40%);
+		--color-accent-subtle: rgba(203, 166, 247, /15%);
 		--color-success-fg: #a6e3a1;
 		--color-attention-fg: #fab387;
 		--color-attention-muted: #cba6f7;
