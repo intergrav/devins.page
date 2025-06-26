@@ -74,8 +74,8 @@ main {
 	--color-neutral-muted: rgb(156 160 176 / 20%);
 	--color-accent-fg: #fe640b;
 	--color-accent-emphasis: #fe640b;
-	--color-accent-muted: rgb(136, 57, 239, /40%);
-	--color-accent-subtle: rgb(136, 57, 239, /15%);
+	--color-accent-muted: rgb(136 57 239 / 40%);
+	--color-accent-subtle: rgb(136 57 239 / 15%);
 	--color-success-fg: #40a02b;
 	--color-attention-fg: #fe640b;
 	--color-attention-muted: #8839ef;
@@ -159,8 +159,8 @@ main .gsc-loading-image {
 		--color-neutral-muted: rgb(108 112 134 / 40%);
 		--color-accent-fg: #fab387;
 		--color-accent-emphasis: #fab387;
-		--color-accent-muted: rgba(203, 166, 247, /40%);
-		--color-accent-subtle: rgba(203, 166, 247, /15%);
+		--color-accent-muted: rgb(203 166 247 / 40%);
+		--color-accent-subtle: rgb(203 166 247 / 15%);
 		--color-success-fg: #a6e3a1;
 		--color-attention-fg: #fab387;
 		--color-attention-muted: #cba6f7;
