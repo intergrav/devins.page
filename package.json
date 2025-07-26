@@ -11,8 +11,8 @@
 	"dependencies": {
 		"@astrojs/rss": "^4.0.12",
 		"@astrojs/sitemap": "^3.4.1",
-		"@intergrav/slight.css": "^2.0.0",
-		"astro": "^5.12.1",
+		"@intergrav/slight.css": "^2.0.1",
+		"astro": "^5.12.3",
 		"markdown-it": "^14.1.0",
 		"prettier": "^3.6.2",
 		"prettier-plugin-astro": "^0.14.1",
