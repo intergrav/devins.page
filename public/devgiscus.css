@@ -94,6 +94,10 @@ main {
 	}
 }
 
+.rounded-md {
+	border-radius: 0.25rem;
+}
+
 .gsc-comments .gsc-header .gsc-left-header em a {
 	color: var(--text-muted-color);
 	text-underline-offset: 4px;
