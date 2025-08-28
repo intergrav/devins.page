@@ -44,6 +44,7 @@ main {
 	--text-muted-color: #744253;
 	--text-normal-color: #744253;
 	--color-bg-primary: #ddc2c5;
+	--color-bg-overlay: #ddc2c5;
 	--color-border-primary: #b49094;
 	--color-text-primary: #744253;
 	--color-text-link: #bc6364;
@@ -85,6 +86,7 @@ main {
 		--text-muted-color: #f3d9dc;
 		--text-normal-color: #f3d9dc;
 		--color-bg-primary: #4e3e44;
+		--color-bg-overlay: #4e3e44;
 		--color-border-primary: #68575d;
 		--color-text-primary: #f3d9dc;
 		--color-text-link: #cf8182;
