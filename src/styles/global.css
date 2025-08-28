@@ -1,21 +1,32 @@
-/* catppuccin latte */
 :root {
-	--bg: #eff1f5; /* base */
-	--text: #4c4f69; /* text */
-	--accent: #fe640b; /* peach */
-	--sc-prose-bg: #e6e9ef; /* mantle */
-	--sc-prose-bd: #bcc0cc; /* surface 1 */
+	--bg: #f3d9dc;
+	--text: #744253;
+	--accent: #bc6364;
+	--sc-prose-bg: #ddc2c5;
+	--sc-prose-bd: #b49094;
 }
 
-/* catppuccin mocha */
 @media (prefers-color-scheme: dark) {
 	:root {
-		--bg: #1e1e2e; /* base */
-		--text: #cdd6f4; /* text */
-		--accent: #fab387; /* peach */
-		--sc-prose-bg: #181825; /* mantle */
-		--sc-prose-bd: #45475a; /* surface 1 */
+		--bg: #3e2f35;
+		--text: #f3d9dc;
+		--accent: #cf8182;
+		--sc-prose-bg: #4e3e44;
+		--sc-prose-bd: #68575d;
 	}
+}
+
+:root {
+	--sc-font: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Superclarendon, 'Bookman Old Style', 'URW Bookman', 'URW Bookman L', 'Georgia Pro', Georgia, serif;
 }
 
 body {
