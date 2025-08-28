@@ -17,7 +17,9 @@
 }
 
 :root {
-	--sc-font: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+	--sc-font:
+		Seravek, "Gill Sans Nova", Ubuntu, Calibri, "DejaVu Sans", source-sans-pro,
+		sans-serif;
 }
 
 h1,
@@ -26,7 +28,9 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: Superclarendon, 'Bookman Old Style', 'URW Bookman', 'URW Bookman L', 'Georgia Pro', Georgia, serif;
+	font-family:
+		Superclarendon, "Bookman Old Style", "URW Bookman", "URW Bookman L",
+		"Georgia Pro", Georgia, serif;
 }
 
 body {
