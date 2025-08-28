@@ -95,7 +95,7 @@ main {
 }
 
 .rounded-md {
-	border-radius: 0.25rem;
+	border-radius: 0.25rem !important;
 }
 
 .gsc-comments .gsc-header .gsc-left-header em a {
