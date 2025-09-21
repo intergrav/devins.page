@@ -3,6 +3,7 @@ import "@intergrav/slight.css";
 import "../styles/global.css";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import Comments from "../components/Comments.astro";
 
 const { title, description } = Astro.props;
 ---
@@ -37,6 +38,7 @@ const { title, description } = Astro.props;
 		<main>
 			<slot />
 		</main>
+		<Comments />
 		<Footer />
 	</body>
 </html>
