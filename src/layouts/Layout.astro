@@ -1,10 +1,8 @@
 ---
 import "@intergrav/slight.css";
 import "../styles/global.css";
-import Comments from "../components/Comments.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
-import { ClientRouter } from "astro:transitions";
 
 const { title, description } = Astro.props;
 ---
@@ -31,16 +29,11 @@ const { title, description } = Astro.props;
 			title="devin's page"
 			href={new URL("rss.xml", Astro.site)}
 		/>
-
-		<ClientRouter />
 	</head>
 	<body class="prose">
 		<Header />
 		<main>
-			<section>
-				<slot />
-			</section>
-			<Comments />
+			<slot />
 		</main>
 		<Footer />
 	</body>

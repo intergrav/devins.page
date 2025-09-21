@@ -7,8 +7,8 @@ export default defineConfig({
 	markdown: {
 		shikiConfig: {
 			themes: {
-				light: "rose-pine-dawn",
-				dark: "laserwave",
+				light: "light-plus",
+				dark: "dark-plus",
 			},
 		},
 	},

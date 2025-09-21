@@ -1,76 +1,27 @@
-:root {
-	--bg: #f3d9dc;
-	--text: #744253;
-	--accent: #bc6364;
-	--sc-prose-bg: #ddc2c5;
-	--sc-prose-bd: #b49094;
-}
-
-@media (prefers-color-scheme: dark) {
-	:root {
-		--bg: #3e2f35;
-		--text: #f3d9dc;
-		--accent: #cf8182;
-		--sc-prose-bg: #4e3e44;
-		--sc-prose-bd: #68575d;
-	}
-}
-
-:root {
-	--sc-font:
-		Seravek, "Gill Sans Nova", Ubuntu, Calibri, "DejaVu Sans", source-sans-pro,
-		sans-serif;
-}
-
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-	font-family:
-		Superclarendon, "Bookman Old Style", "URW Bookman", "URW Bookman L",
-		"Georgia Pro", Georgia, serif;
+	font-family: ui-serif, serif;
 }
 
-body {
-	background-color: var(--bg);
-	color: var(--text);
-}
-
-blockquote,
 pre {
-	border-radius: 0.25rem;
+	/* shiki changes the background color, so i have to add this to separate the code from the rest of the text */
 	border: 1px solid var(--sc-prose-bd);
 }
 
 article {
 	margin-block: 1rem;
-	padding-left: 1rem;
-	padding-right: 1rem;
+	padding-inline: 1rem;
 	background-color: var(--sc-prose-bg);
-	border-radius: 0.25rem;
 	border: 1px solid var(--sc-prose-bd);
-}
-
-a {
-	color: var(--accent);
-	text-decoration: none;
-}
-
-a:hover {
-	color: var(--accent);
-	text-decoration: underline;
-}
-
-hr {
-	border-color: var(--sc-prose-bd);
-	border-style: solid;
 }
 
 .floating-image {
 	float: right;
-	margin-left: 1rem;
+	margin-inline-start: 1rem;
 	margin-block: 1rem;
 	height: 128px;
 }

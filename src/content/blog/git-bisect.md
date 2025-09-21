@@ -1,5 +1,5 @@
 ---
-title: "git bisect is very useful"
+title: "git bisect"
 description: "use binary search to find the commit that broke things"
 image: "/blog/git-bisect.svg"
 imageAlt: "the git logo"

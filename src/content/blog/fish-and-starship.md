@@ -1,5 +1,5 @@
 ---
-title: "check out fish shell (+ starship)"
+title: "using fish + starship"
 description: "a smart, user-friendly command line shell w/ a really good out-of-box experience"
 image: "/blog/fish-and-starship.svg"
 imageAlt: "a picture of the fish and starship icons, with a plus symbol"
@@ -7,7 +7,9 @@ pubDate: 2025-06-24
 categories: ["terminal", "fish", "starship", "productivity"]
 ---
 
-fish (**f**riendly **i**nteractive **sh**ell) is a "smart and user-friendly command line shell for Linux, macOS, and the rest of the family". it contains so many useful features built-in, which you usually have to configure to add to other shells, and is overall much easier to work with than others.
+[fish](https://fishshell.com) (**f**riendly **i**nteractive **sh**ell) is a "smart and user-friendly command line shell for Linux, macOS, and the rest of the family". it contains so many useful features built-in, which you usually have to configure to add to other shells, and is overall much easier to work with than others.
+
+i discovered it from a couple of my friends and it has made using the command line a lot easier and more attractive for me. it's pretty easy to install and use.
 
 ## features
 
@@ -101,7 +103,7 @@ run `fish_config` and it opens a web interface where you can customize colors an
 
 you can easily install fish on Linux, MacOS and BSD. see their [home page](https://fishshell.com) for installation info. the [documentation](https://fishshell.com/docs/current) also has much more information about what it can do, how to use it, and how to set it as your default shell.
 
-### starship
+## starship
 
 after installing fish, you can use [starship](https://starship.rs) with it, which is a prompt thats very fast, customizable, and intelligent. it shows various things to you such as git status (current branch, changes, ahead/behind), language/package versions, ssh status, and a bunch of other information, all in a concise way.
 

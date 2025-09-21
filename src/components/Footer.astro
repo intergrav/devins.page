@@ -10,20 +10,22 @@ const commitHash = (() => {
 })();
 ---
 
-<hr />
-<footer
-	style="display: flex; justify-content: space-between; align-items: center"
->
+<footer style="text-align: center;">
 	<nav>
-		subscribe to <a href="/rss.xml">rss</a>
+		<p>
+			<a href="mailto:devin@devins.page">email</a> •
+			<a href="https://matrix.to/#/@devin_real:matrix.org">matrix</a> •
+			<a href="https://github.com/intergrav">github</a> •
+			<a href="https://www.last.fm/user/devin_real">last.fm</a>
+		</p>
 	</nav>
-	<div style="text-align: right">
+	<p>
 		<code
 			><a href={`https://github.com/intergrav/devins.page/commit/${commitHash}`}
 				>{commitHash}</a
 			></code
-		>, <a href="https://astro.build">astro</a> and <a
+		> made with <a href="https://astro.build">astro</a> and <a
 			href="https://github.com/intergrav/slight.css">slight.css</a
-		>
-	</div>
+		>. subscribe to <a href="/rss.xml">rss</a>
+	</p>
 </footer>

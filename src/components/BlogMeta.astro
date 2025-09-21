@@ -1,8 +1,8 @@
 ---
-const { pubDate, categories, slug } = Astro.props;
+const { pubDate, categories } = Astro.props;
 ---
 
-<p transition:name={`blog-meta-${slug}`}>
+<p>
 	<small>
 		{
 			pubDate && (

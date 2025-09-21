@@ -14,18 +14,8 @@ const {
 ---
 
 <Layout {title} {description}>
-	{
-		image && (
-			<img
-				src={image}
-				alt={imageAlt || ""}
-				class="floating-image"
-				transition:name={`blog-image-${post.slug}`}
-			/>
-		)
-	}
-	<h1 transition:name={`blog-title-${post.slug}`}>{title}</h1>
-	<BlogMeta {pubDate} {categories} slug={post.slug} />
-	<p transition:name={`blog-description-${post.slug}`}>{description}.</p>
+	{image && <img src={image} alt={imageAlt || ""} class="floating-image" />}
+	<h1>{title}</h1>
+	<BlogMeta {pubDate} {categories} />
 	<slot />
 </Layout>
