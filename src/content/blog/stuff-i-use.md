@@ -24,18 +24,18 @@ my main computer is an _M1 Pro MacBook Pro_ configured with 16gb of memory and 1
 
 i also have a _Surface_ laptop, running Windows, which i use for games. but i don't really do much else on there. i would like to install Linux on there, but it doesn't really play nicely with my dock (Dell WD19TB). also for whatever reason on Linux it always runs the NVIDIA GPU at the lowest power setting, making games unplayable.
 
-i also play games and emulate games on my [Steam Deck](https://store.steampowered.com/steamdeck) very often. it's a 256GB LCD model. this has been a very good purchase and i'd heavily recommend it if you're into pc gaming :)
+i also play games and emulate games on my _[Steam Deck](https://store.steampowered.com/steamdeck)_ very often. it's a 256GB LCD model. this has been a very good purchase and i'd heavily recommend it if you're into pc gaming :)
 
 i also have an _Intel NUC_ (i forgot exactly which generation) running [NixOS](https://nixos.org), and i use this as my main server. i run [Navidrome](https://www.navidrome.org) for streaming my music library, [restic](https://restic.net) and [Time Machine](<https://en.wikipedia.org/wiki/Time_Machine_(macOS)>) backup shares, and Minecraft servers for my friends.
 
 i have a _Raspberry Pi 4_ which i used to run RetroPie on. currently it's unused though, and i'm thinking of ways i could use it.
 
-i have an iPhone 14 Pro, mainly because i wanted GarageBand at the time but it also plays nicely with my Mac. i'm considering switching to a Pixel at some point though.
+i have an _iPhone 14 Pro_, mainly because i wanted GarageBand at the time but it also plays nicely with my Mac. i'm considering switching to a Pixel at some point though.
 
 i also enjoy messing with retro/vintage hardware and have some older computers:
 
-- sometimes i use my 4th gen iPod Touch for distraction-free music listening. while it's not a phone, i do quite miss when phones were small and easier to handle
-- i have a Gateway laptop from 2003 that i don't really use, but sometimes mess around with it for shits and giggles
+- sometimes i use my _4th gen iPod Touch_ for distraction-free music listening. while it's not a phone, i do quite miss when phones were small and easier to handle
+- i have a _Gateway_ laptop from 2003 that i don't really use, but sometimes mess around with it for shits and giggles
 
 also here's the gear i use for music:
 
