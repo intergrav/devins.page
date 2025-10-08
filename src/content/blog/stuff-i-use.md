@@ -40,7 +40,8 @@ i also enjoy messing with retro/vintage hardware and have some older computers:
 also here's the gear i use for music:
 
 - audio workstation: i mostly use [Logic Pro](https://www.apple.com/logic-pro) or [Bitwig](https://www.bitwig.com) or [FL Studio](https://www.image-line.com)
-- instruments: i have a Squier stratocaster, some acoustic Yamaha, a ukulele, and a Yamaha keyboard. i also use a lot of Logic's software instruments.
+- instruments: i have a Squier stratocaster, some acoustic Yamaha, a ukulele, and a Yamaha keyboard.
+- virtual plugins: Logic's stock, ValhallaDSP, MeldaProduction, Spitfire Audio LABS
 - midi controller: i use that Yamaha keyboard along with my [Arturia Minilab 3](https://www.arturia.com/products/hybrid-synths/minilab-3/overview).
 - microphone: i typically use an [AKG P120](https://www.akg.com/microphones/condenser-microphones/P120-.html).
 - audio interface: i use a [Focusrite Scarlett Solo 3rd Gen](https://us.focusrite.com/products/scarlett-solo-3rd-gen). however, sometimes on the go, i just plug in my [Fender Mustang Micro](https://www.fender.com/products/mustang-micro) and start recording, but the latency is sometimes kinda bad when plugged into the laptop
@@ -58,22 +59,26 @@ on linux i typically use [GNOME](https://en.wikipedia.org/wiki/GNOME), but i've 
 ### programs
 
 - [Apple Mail](https://en.wikipedia.org/wiki/Apple_Mail) or [Thunderbird](https://www.thunderbird.net)
+- [Battery Toolkit](https://github.com/mhaeuser/Battery-Toolkit)
 - [Discord](https://discord.com)
 - [Final Cut Pro](https://www.apple.com/final-cut-pro) or [Davinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/)
 - [Ghostty](https://ghostty.org)
 - [iTunes](https://en.wikipedia.org/wiki/ITunes) (`Music.app`) or [Strawberry](https://www.strawberrymusicplayer.org)
 - [JetBrains IDEA](https://www.jetbrains.com/idea)
 - [Logic Pro](https://www.apple.com/logic-pro) or [Bitwig](https://www.bitwig.com) or [FL Studio](https://www.image-line.com)
+- [MuseScore](https://musescore.org/en)
 - [Neovim](https://neovim.io)
 - [NetNewsWire](https://netnewswire.com)
 - [Nix](https://nixos.org) and [nix-darwin](https://github.com/nix-darwin/nix-darwin)
 - [Obsidian](https://obsidian.md)
 - [OnyX](https://www.titanium-software.fr/en/onyx.html)
+- [Prism Launcher](https://prismlauncher.org)
 - [Signal](https://signal.org)
+- [Steam](https://steampowered.com)
 - [Tailscale](https://tailscale.com)
 - [Transmission](https://transmissionbt.com)
+- [Visual Studio Code](https://code.visualstudio.com)
 - [VLC](https://www.videolan.org/vlc)
-- [VSCode](https://code.visualstudio.com)
 
 (there may also be some other software i forgot to mention, but thats most of it)
 
