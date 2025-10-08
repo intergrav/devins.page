@@ -40,7 +40,7 @@ i also enjoy messing with retro/vintage hardware and have some older computers:
 also here's the gear i use for music:
 
 - audio workstation: i mostly use [Logic Pro](https://www.apple.com/logic-pro) or [Bitwig](https://www.bitwig.com) or [FL Studio](https://www.image-line.com)
-- instruments: i have a Squier stratocaster, some acoustic Yamaha, a ukulele, and a Yamaha keyboard.
+- instruments: i have a Squier stratocaster, some acoustic Yamaha, a ukulele, and a Yamaha keyboard. i also use a lot of Logic's software instruments.
 - midi controller: i use that Yamaha keyboard along with my [Arturia Minilab 3](https://www.arturia.com/products/hybrid-synths/minilab-3/overview).
 - microphone: i typically use an [AKG P120](https://www.akg.com/microphones/condenser-microphones/P120-.html).
 - audio interface: i use a [Focusrite Scarlett Solo 3rd Gen](https://us.focusrite.com/products/scarlett-solo-3rd-gen). however, sometimes on the go, i just plug in my [Fender Mustang Micro](https://www.fender.com/products/mustang-micro) and start recording, but the latency is sometimes kinda bad when plugged into the laptop
@@ -57,22 +57,23 @@ on linux i typically use [GNOME](https://en.wikipedia.org/wiki/GNOME), but i've 
 
 ### programs
 
-- [Nix](https://nixos.org) and [nix-darwin](https://github.com/nix-darwin/nix-darwin)
-- [Obsidian](https://obsidian.md)
-- [VSCode](https://code.visualstudio.com)
-- [Neovim](https://neovim.io)
-- [JetBrains IDEA](https://www.jetbrains.com/idea)
-- [Final Cut Pro](https://www.apple.com/final-cut-pro) or [Davinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/)
-- [Logic Pro](https://www.apple.com/logic-pro) or [Bitwig](https://www.bitwig.com) or [FL Studio](https://www.image-line.com)
 - [Apple Mail](https://en.wikipedia.org/wiki/Apple_Mail) or [Thunderbird](https://www.thunderbird.net)
 - [Discord](https://discord.com)
-- [Signal](https://signal.org)
-- [NetNewsWire](https://netnewswire.com)
+- [Final Cut Pro](https://www.apple.com/final-cut-pro) or [Davinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/)
 - [Ghostty](https://ghostty.org)
+- [iTunes](https://en.wikipedia.org/wiki/ITunes) (`Music.app`) or [Strawberry](https://www.strawberrymusicplayer.org)
+- [JetBrains IDEA](https://www.jetbrains.com/idea)
+- [Logic Pro](https://www.apple.com/logic-pro) or [Bitwig](https://www.bitwig.com) or [FL Studio](https://www.image-line.com)
+- [Neovim](https://neovim.io)
+- [NetNewsWire](https://netnewswire.com)
+- [Nix](https://nixos.org) and [nix-darwin](https://github.com/nix-darwin/nix-darwin)
+- [Obsidian](https://obsidian.md)
+- [OnyX](https://www.titanium-software.fr/en/onyx.html)
+- [Signal](https://signal.org)
 - [Tailscale](https://tailscale.com)
 - [Transmission](https://transmissionbt.com)
 - [VLC](https://www.videolan.org/vlc)
-- [iTunes](https://en.wikipedia.org/wiki/ITunes) (`Music.app`) or [Strawberry](https://www.strawberrymusicplayer.org)
+- [VSCode](https://code.visualstudio.com)
 
 (there may also be some other software i forgot to mention, but thats most of it)
 
@@ -80,8 +81,8 @@ on linux i typically use [GNOME](https://en.wikipedia.org/wiki/GNOME), but i've 
 
 these are services hosted on my NUC. i connect everything using Tailscale. (i luv tailscale!!!!!)
 
-- [Navidrome](https://www.navidrome.org), for streaming my music library
 - [Jellyfin](https://jellyfin.org), for streaming my movies/TV shows
+- [Navidrome](https://www.navidrome.org), for streaming my music library
 - [slskd](https://github.com/slskd/slskd) for music downloading and sharing (soulseek daemon)
+- Minecraft or other game servers for friends
 - shares for [restic](https://restic.net) Linux backups and [Time Machine](<https://en.wikipedia.org/wiki/Time_Machine_(macOS)>) MacOS backups
-- sometimes i run Minecraft or other game servers for friends
