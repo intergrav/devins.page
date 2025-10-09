@@ -34,7 +34,7 @@ i have an _iPhone 14 Pro_, mainly because i wanted GarageBand at the time but it
 
 i also enjoy messing with retro/vintage hardware and have some older computers:
 
-- sometimes i use my _4th gen iPod Touch_ for distraction-free music listening. while it's not a phone, i do quite miss when phones were small and easier to handle
+- sometimes i use my _4th gen iPod Touch_ for distraction-free music listening. i do quite miss when mobile devices were small and easier to handle, and this is nice to bring to places where i don't want my phone
 - i have a _Gateway_ laptop from 2003 that i don't really use, but sometimes mess around with it for shits and giggles
 
 also here's the gear i use for music:
