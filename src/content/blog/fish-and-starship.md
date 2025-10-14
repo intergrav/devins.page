@@ -33,7 +33,7 @@ fish will automatically highlight valid commands in one color and invalid ones i
 
 ### (good) tab completion
 
-fish can complete a ton of things. some examples include file paths, commands and flags, git branches, environment variables, scripts from your package.json, and more. the completions for commands and flags are generated automatically based on man pages, so you can view what they do.
+fish can complete a ton of things. some examples include file paths, commands and flags, git branches, environment variables, scripts from your package.json, and more. the completions for commands and flags are generated automatically based on man pages.
 
 an example showing the tab completion for `git commit -`:
 
@@ -62,7 +62,7 @@ $EUID                                                          (Variable: 501)
 
 ### better scripting syntax
 
-i think the scripting syntax in fish is a lot better, more readable, and easier to understand than what bash has. here's an example, taken from their website:
+the scripting syntax in fish is a lot more understandable and easier to read than the syntax in bash. here's an example, taken from their website:
 
 ```fish
 function detect_os
