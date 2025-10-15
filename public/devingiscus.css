@@ -38,6 +38,10 @@ main {
   --color-prettylights-syntax-constant-other-reference-link: #032563;
   --text-muted-color: #685151;
   --text-normal-color: #56393a;
+  --color-text-primary: var(--text-normal-color);
+  --color-fg-default: var(--text-normal-color);
+  --color-border-default: var(--text-normal-color);
+  --color-border-primary: var(--text-normal-color);
   --color-segmented-control-bg: transparent;
 }
 
