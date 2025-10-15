@@ -7,11 +7,11 @@ categories: ["meta"]
 
 i made a couple changes to the website:
 
-- using [system colors](https://developer.mozilla.org/en-US/docs/Web/CSS/system-color) again, since i didn't like the color scheme i came up with.
-- ~~removed [giscus](https://giscus.app) comments since they were never really used and just adds bloat to the page. maybe in the future i'll make a simpler comments system.~~ i've added it back, but you have to click the "load giscus" button at the bottom of the page.
+- ~~using [system colors](https://developer.mozilla.org/en-US/docs/Web/CSS/system-color) again, since i didn't like the color scheme i came up with.~~ i made a new beige color scheme that i quite like, so this will probably stick for a while
+- ~~removed [giscus](https://giscus.app) comments since they were never really used and just adds bloat to the page. maybe in the future i'll make a simpler comments system.~~ i've added it back, and mentioned it in the privacy page
 - redesigned the header to be a lot more simple, moved external links to the footer.
-- use serif fonts for headings, cursive font for site title, just because i think it looks more stylish.
-- removed [clientrouter](https://docs.astro.build/en/guides/view-transitions) which gets rid of site transitions, i felt like it didn't really fit well and some browsers couldn't handle it properly.
+- use serif fonts for headings, handwritten font for site title, just because i think it looks more pleasing.
+- removed [clientrouter](https://docs.astro.build/en/guides/view-transitions) which gets rid of site transitions, i felt like it didn't really fit well with this site and some browsers couldn't handle it properly.
 - added back link underlines for accessibility
 
 besides that, im planning on maybe working on a few new projects in the coming months.

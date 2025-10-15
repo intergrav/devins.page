@@ -1,3 +1,43 @@
+:root {
+	--sc_prose_background-color: #f2dccf;
+	--sc_prose_border-color: #bb9d99;
+}
+
+body {
+	background-color: #f9eae1;
+	color: #56393a;
+}
+
+a {
+	color: #9f635e;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--sc_prose_background-color: #3f2d2d;
+		--sc_prose_border-color: #7f6060;
+	}
+
+	body {
+		background-color: #493636;
+		color: #f9eae1;
+	}
+
+	a {
+		color: #cb928e;
+	}
+}
+
+:root {
+	--sc_typography_font_sans-serif:
+		Seravek, "Gill Sans Nova", Ubuntu, Calibri, "DejaVu Sans", source-sans-pro,
+		sans-serif;
+	--sc_typography_font_serif:
+		Superclarendon, "Bookman Old Style", "URW Bookman", "URW Bookman L",
+		"Georgia Pro", Georgia, serif;
+	--sc_typography_font_mono: "Nimbus Mono PS", "Courier New", monospace;
+}
+
 h1,
 h2,
 h3,
