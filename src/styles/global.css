@@ -1,3 +1,5 @@
+/* color palette */
+
 :root {
 	--sc_prose_background-color: #f2dccf;
 	--sc_prose_border-color: #bb9d99;
@@ -28,6 +30,8 @@ a {
 	}
 }
 
+/* fonts */
+
 :root {
 	--sc_typography_font_sans-serif:
 		Seravek, "Gill Sans Nova", Ubuntu, Calibri, "DejaVu Sans", source-sans-pro,
@@ -46,6 +50,13 @@ h5,
 h6 {
 	font-family: var(--sc_typography_font_serif);
 }
+
+header h1 {
+	font-family:
+		"Segoe Print", "Bradley Hand", Chilanka, TSCu_Comic, casual, cursive;
+}
+
+/* other */
 
 article {
 	margin-block: 1rem;
