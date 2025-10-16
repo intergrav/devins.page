@@ -32,7 +32,7 @@ a {
 	/* mobile devices: make background darker for oled screens */
 	@media (max-width: 32rem) {
 		:root {
-			--sc_prose_background-color:rgb(18, 17, 17);
+			--sc_prose_background-color: rgb(18, 17, 17);
 			--sc_prose_border-color: #47413f;
 		}
 
