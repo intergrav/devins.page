@@ -28,6 +28,18 @@ a {
 	a {
 		color: #cba28e;
 	}
+
+	/* mobile devices: make background darker for oled screens */
+	@media (max-width: 32rem) {
+		:root {
+			--sc_prose_background-color:rgb(18, 17, 17);
+			--sc_prose_border-color: #47413f;
+		}
+
+		body {
+			background-color: rgb(0, 0, 0);
+		}
+	}
 }
 
 /* fonts */
