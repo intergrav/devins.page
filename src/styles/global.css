@@ -16,17 +16,17 @@ a {
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--sc_prose_background-color: #3f2d2d;
-		--sc_prose_border-color: #7f6060;
+		--sc_prose_background-color: #3b322f;
+		--sc_prose_border-color: #695b56;
 	}
 
 	body {
-		background-color: #493636;
+		background-color: #2d2826;
 		color: #f9eae1;
 	}
 
 	a {
-		color: #cb928e;
+		color: #cba28e;
 	}
 }
 
