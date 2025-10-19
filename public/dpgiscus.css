@@ -87,8 +87,8 @@ main {
 	/* mobile devices: make background darker for oled screens */
 	@media (max-width: 32rem) {
 		:root {
-			--text-muted-color: #ababab;
-			--text-normal-color: #ffffff;
+			--text-muted-color: #ababab !important;
+			--text-normal-color: #ffffff !important;
 		}
 	}
 }
