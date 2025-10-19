@@ -83,6 +83,14 @@ main {
 		--text-normal-color: #f9eae1;
 		--color-segmented-control-bg: transparent;
 	}
+
+	/* mobile devices: make background darker for oled screens */
+	@media (max-width: 32rem) {
+		:root {
+			--text-muted-color: #ababab;
+			--text-normal-color: #ffffff;
+		}
+	}
 }
 
 .gsc-comments .gsc-header .gsc-left-header em a {
