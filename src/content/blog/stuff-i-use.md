@@ -58,28 +58,32 @@ on linux i typically use [GNOME](https://en.wikipedia.org/wiki/GNOME), but i've 
 
 ### programs
 
-- [Apple Mail](https://en.wikipedia.org/wiki/Apple_Mail) or [Thunderbird](https://www.thunderbird.net)
-- [Battery Toolkit](https://github.com/mhaeuser/Battery-Toolkit)
-- [Discord](https://discord.com)
-- [Final Cut Pro](https://www.apple.com/final-cut-pro) or [Davinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/)
-- [Ghostty](https://ghostty.org)
-- [iTunes](https://en.wikipedia.org/wiki/ITunes) (`Music.app`) or [Strawberry](https://www.strawberrymusicplayer.org)
-- [JetBrains IDEA](https://www.jetbrains.com/idea)
-- [Logic Pro](https://www.apple.com/logic-pro) or [Bitwig](https://www.bitwig.com) or [FL Studio](https://www.image-line.com) or [GarageBand](https://www.apple.com/mac/garageband)
-- [MuseScore](https://musescore.org/en)
-- [Neovim](https://neovim.io)
-- [NetNewsWire](https://netnewswire.com)
-- [Nix](https://nixos.org) and [nix-darwin](https://github.com/nix-darwin/nix-darwin)
-- [Obsidian](https://obsidian.md)
-- [OnyX](https://www.titanium-software.fr/en/onyx.html)
-- [Photomator](https://www.pixelmator.com/photomator) or [Adobe Lightroom](https://lightroom.adobe.com)
-- [Prism Launcher](https://prismlauncher.org)
-- [Signal](https://signal.org)
-- [Steam](https://steampowered.com)
-- [Tailscale](https://tailscale.com)
-- [Transmission](https://transmissionbt.com)
-- [Visual Studio Code](https://code.visualstudio.com)
-- [VLC](https://www.videolan.org/vlc)
+<ul style="column-count: 2">
+<li><a href="https://en.wikipedia.org/wiki/Apple_Mail">Apple Mail</a> or <a href="https://www.thunderbird.net">Thunderbird</a></li>
+<li><a href="https://github.com/mhaeuser/Battery-Toolkit">Battery Toolkit</a></li>
+<li><a href="https://cinny.in">Cinny</a></li>
+<li><a href="https://discord.com">Discord</a></li>
+<li><a href="https://www.apple.com/final-cut-pro">Final Cut Pro</a> or <a href="https://www.blackmagicdesign.com/products/davinciresolve/">Davinci Resolve</a></li>
+<li><a href="https://ghostty.org">Ghostty</a></li>
+<li><a href="http://inkscape.org">Inkscape</a> or <a href="https://www.figma.com">Figma</a></li>
+<li><a href="https://en.wikipedia.org/wiki/ITunes">iTunes</a> (<code>Music.app</code>) or <a href="https://www.strawberrymusicplayer.org">Strawberry</a></li>
+<li><a href="https://www.jetbrains.com/idea">JetBrains IDEA</a></li>
+<li><a href="https://www.apple.com/logic-pro">Logic Pro</a> or <a href="https://www.bitwig.com">Bitwig</a> or <a href="https://www.image-line.com">FL Studio</a> or <a href="https://www.apple.com/mac/garageband">GarageBand</a></li>
+<li><a href="https://musescore.org/en">MuseScore</a></li>
+<li><a href="https://neovim.io">Neovim</a></li>
+<li><a href="https://netnewswire.com">NetNewsWire</a></li>
+<li><a href="https://nixos.org">Nix</a> and <a href="https://github.com/nix-darwin/nix-darwin">nix-darwin</a></li>
+<li><a href="https://obsidian.md">Obsidian</a></li>
+<li><a href="https://www.titanium-software.fr/en/onyx.html">OnyX</a></li>
+<li><a href="https://www.pixelmator.com/photomator">Photomator</a> or <a href="https://lightroom.adobe.com">Adobe Lightroom</a></li>
+<li><a href="https://prismlauncher.org">Prism Launcher</a></li>
+<li><a href="https://signal.org">Signal</a></li>
+<li><a href="https://steampowered.com">Steam</a></li>
+<li><a href="https://tailscale.com">Tailscale</a></li>
+<li><a href="https://transmissionbt.com">Transmission</a></li>
+<li><a href="https://code.visualstudio.com">Visual Studio Code</a></li>
+<li><a href="https://www.videolan.org/vlc">VLC</a></li>
+</ul>
 
 (there may also be some other software i forgot to mention, but thats most of it)
 
