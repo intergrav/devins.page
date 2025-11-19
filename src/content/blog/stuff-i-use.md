@@ -26,7 +26,7 @@ i also have a _Surface_ laptop, running Windows, which i use for games. but i do
 
 i also play games and emulate games on my _[Steam Deck](https://store.steampowered.com/steamdeck)_ very often. it's a 256GB LCD model. this has been a very good purchase and i'd heavily recommend it if you're into pc gaming :)
 
-i also have an _Intel NUC_ (i forgot exactly which generation) running [NixOS](https://nixos.org), and i use this as my main server. i run [Navidrome](https://www.navidrome.org) for streaming my music library, [restic](https://restic.net) and [Time Machine](<https://en.wikipedia.org/wiki/Time_Machine_(macOS)>) backup shares, and Minecraft servers for my friends.
+i also have an _Intel NUC_ (i forgot exactly which generation) running [NixOS](https://nixos.org), and i use this as my main server. i run [Jellyfin](https://jellyfin.org) for movies/tv, [Navidrome](https://www.navidrome.org) for streaming my music library, [restic](https://restic.net) and [Time Machine](<https://en.wikipedia.org/wiki/Time_Machine_(macOS)>) backup shares, and Minecraft servers for my friends. i also run [Samba](https://www.samba.org) shares.
 
 i have a _Raspberry Pi 4_ which i used to run RetroPie on. currently it's unused though, and i'm thinking of ways i could use it.
 
@@ -59,6 +59,7 @@ on linux i typically use [GNOME](https://en.wikipedia.org/wiki/GNOME), but i've 
 ### programs
 
 <ul style="column-count: 2">
+<li><a href="https://www.affinity.studio">Affinity</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Apple_Mail">Apple Mail</a> or <a href="https://www.thunderbird.net">Thunderbird</a></li>
 <li><a href="https://github.com/mhaeuser/Battery-Toolkit">Battery Toolkit</a></li>
 <li><a href="https://cinny.in">Cinny</a></li>
