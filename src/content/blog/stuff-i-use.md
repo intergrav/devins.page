@@ -26,7 +26,9 @@ i also have a _Surface_ laptop, running Windows, which i use for games. but i do
 
 i also play games and emulate games on my _[Steam Deck](https://store.steampowered.com/steamdeck)_ very often. it's a 256GB LCD model. this has been a very good purchase and i'd heavily recommend it if you're into pc gaming :)
 
-i also have an _Intel NUC_ (i forgot exactly which generation) running [NixOS](https://nixos.org), and i use this as my main server. i run [Jellyfin](https://jellyfin.org) for movies/tv, [Navidrome](https://www.navidrome.org) for streaming my music library, [restic](https://restic.net) and [Time Machine](<https://en.wikipedia.org/wiki/Time_Machine_(macOS)>) backup shares, and Minecraft servers for my friends. i also run [Samba](https://www.samba.org) shares.
+i have my old desktop which i use as my main server since i don't really have any other use for it. it's running [NixOS](https://nixos.org). i run [Jellyfin](https://jellyfin.org) for movies/tv, [Navidrome](https://www.navidrome.org) for streaming my music library, [restic](https://restic.net) and [Time Machine](<https://en.wikipedia.org/wiki/Time_Machine_(macOS)>) backup shares, and Minecraft servers for my friends. i also run [Samba](https://www.samba.org) shares.
+
+i also have an _Intel NUC_ (i forgot exactly which generation) which was the previous computer i used as my server before i upgraded to my old desktop. this is currently unused.
 
 i have a _Raspberry Pi 4_ which i used to run RetroPie on. currently it's unused though, and i'm thinking of ways i could use it.
 
