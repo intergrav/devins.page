@@ -20,11 +20,11 @@ yes this will get nerdy.
 
 ## hardware
 
-my main computer is an _M1 Pro MacBook Pro_ configured with 16gb of memory and 1tb of storage. i run both MacOS and [Asahi Linux](https://asahilinux.org) on here. i use [Nix](https://nixos.org) and [nix-darwin](https://github.com/nix-darwin/nix-darwin), along with [Homebrew](https://brew.sh) for GUI applications. i mostly went for a MacBook because I wanted to use Logic Pro, but also because i haven't been really enjoying Windows lately. i also love the hardware (the trackpad, display, battery life, and speakers are great)
+my main computer is an _M4 MacBook Air_ configured with 24gb of memory and 1tb of storage. i use [Nix](https://nixos.org) and [nix-darwin](https://github.com/nix-darwin/nix-darwin), along with [Homebrew](https://brew.sh) for GUI applications. i mostly went for a MacBook because I wanted to use Logic Pro, but also because i haven't been really enjoying Windows lately. i also love the hardware (the trackpad, display, battery life, and speakers are great)
 
-i also have a _Surface_ laptop, running Windows, which i use for games. but i don't really do much else on there. i would like to install Linux on there, but it doesn't really play nicely with my dock (Dell WD19TB). also for whatever reason on Linux it always runs the NVIDIA GPU at the lowest power setting, making games unplayable.
+i also have a _Surface_ laptop, running Windows, which i use for games. but i don't really do much else on there. i would like to install Linux on there, but it doesn't really play nicely with my dock (Dell WD19TB). also for whatever reason on Linux it always runs the Nvidia GPU at the lowest power setting, making games unplayable. (the Nvidia driver seems to think that it's always on battery power.)
 
-i also play games and emulate games on my _[Steam Deck](https://store.steampowered.com/steamdeck)_ very often. it's a 256GB LCD model. this has been a very good purchase and i'd heavily recommend it if you're into pc gaming :)
+i also play and emulate games on my _[Steam Deck](https://store.steampowered.com/steamdeck)_ very often. it's a 256GB LCD model. this has been a very good purchase and i'd heavily recommend it if you're into pc gaming and you want something portable :)
 
 i have my old desktop which i use as my main server since i don't really have any other use for it. it's running [NixOS](https://nixos.org). i run [Jellyfin](https://jellyfin.org) for movies/tv, [Navidrome](https://www.navidrome.org) for streaming my music library, [restic](https://restic.net) and [Time Machine](<https://en.wikipedia.org/wiki/Time_Machine_(macOS)>) backup shares, and Minecraft servers for my friends. i also run [Samba](https://www.samba.org) shares.
 
@@ -36,7 +36,8 @@ i have an _iPhone 14 Pro_, mainly because i wanted GarageBand at the time but it
 
 i also enjoy messing with retro/vintage hardware and have some older computers:
 
-- sometimes i use my _4th gen iPod Touch_ for distraction-free music listening. i do quite miss when mobile devices were small and easier to handle, and this is nice to bring to places where i don't want my phone
+- i very often use my _5th gen iPod_ to listen to my music library on the go and at home, since it's distraction-free and fun to tinker with. i run [Rockbox](https://www.rockbox.org) on here with [adwaitapod](https://github.com/D0-0K/adwaitapod), the best Rockbox theme ;)
+- sometimes i used to use my _4th gen iPod Touch_ for distraction-free music listening and those classic mobile games. i do quite miss when mobile devices were small and easier to handle, and this is nice to bring to places where i don't want my phone
 - i have a _Gateway_ laptop from 2003 that i don't really use, but sometimes mess around with it for shits and giggles
 
 also here's the gear i use for music:
@@ -52,11 +53,15 @@ also here's the gear i use for music:
 
 ### operating systems
 
-i mostly prefer MacOS or Fedora, but for servers i run NixOS or Debian. i also run Windows for gaming. i previously used Arch rather than NixOS but it was far too unstable for my liking and i prefer the declarative approach that NixOS offers.
+i mostly prefer MacOS, NixOS, and Fedora, and for servers i run NixOS or Debian. i also run Windows for gaming. i previously used Arch rather than NixOS but it was far too unstable for my liking and i prefer the declarative approach that NixOS offers.
+
+if anti-cheat worked on Linux i would probably switch to it full-time. maybe. though Mac gaming is actually starting to look surprisingly promising 👀 i got RDR2 running at ultra graphics at a decent framerate on my MacBook earlier 👀👀 but it does suffer from the same issues Linux has with anti-cheat.
 
 ### desktop
 
 on linux i typically use [GNOME](https://en.wikipedia.org/wiki/GNOME), but i've also been switching between [KDE](https://en.wikipedia.org/wiki/KDE) and GNOME ever since KDE 6 released. i also use [Sway](https://swaywm.org). when using KDE i often enjoy [AeroThemePlasma](https://gitgud.io/wackyideas/aerothemeplasma) ;)
+
+on the desktop i prefer MacOS over Linux for various reasons, mostly because it tends to be more stable and has better support for professional applications. i need stuff like Logic Pro and Final Cut which simply can't run on Linux. but i am very much excited for whats going on in the Linux space
 
 ### programs
 
@@ -65,6 +70,7 @@ on linux i typically use [GNOME](https://en.wikipedia.org/wiki/GNOME), but i've 
 <li><a href="https://en.wikipedia.org/wiki/Apple_Mail">Apple Mail</a> or <a href="https://www.thunderbird.net">Thunderbird</a></li>
 <li><a href="https://github.com/mhaeuser/Battery-Toolkit">Battery Toolkit</a></li>
 <li><a href="https://cinny.in">Cinny</a></li>
+<li><a href="https://codeweavers.com/crossover">CrossOver</a></li>
 <li><a href="https://discord.com">Discord</a></li>
 <li><a href="https://www.apple.com/final-cut-pro">Final Cut Pro</a> or <a href="https://www.blackmagicdesign.com/products/davinciresolve/">Davinci Resolve</a></li>
 <li><a href="https://ghostty.org">Ghostty</a></li>
