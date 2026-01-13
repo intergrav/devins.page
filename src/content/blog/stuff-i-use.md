@@ -43,7 +43,7 @@ i also enjoy messing with retro/vintage hardware and have some older computers:
 also here's the gear i use for music:
 
 - audio workstation: i mostly use [Logic Pro](https://www.apple.com/logic-pro) or [Bitwig](https://www.bitwig.com) or [FL Studio](https://www.image-line.com)
-- instruments: i have a Squier stratocaster, some acoustic Yamaha, a ukulele, and a Yamaha keyboard.
+- instruments: i have a Donner Hush X, a Squier stratocaster, some acoustic Yamaha, a ukulele, and a Yamaha keyboard.
 - virtual plugins: Logic's stock, ValhallaDSP, MeldaProduction, Spitfire Audio LABS
 - midi controller: i use that Yamaha keyboard along with my [Arturia Minilab 3](https://www.arturia.com/products/hybrid-synths/minilab-3/overview).
 - microphone: i typically use an [AKG P120](https://www.akg.com/microphones/condenser-microphones/P120-.html).
@@ -53,9 +53,9 @@ also here's the gear i use for music:
 
 ### operating systems
 
-i mostly prefer MacOS, NixOS, and Fedora, and for servers i run NixOS or Debian. i also run Windows for gaming. i previously used Arch rather than NixOS but it was far too unstable for my liking and i prefer the declarative approach that NixOS offers.
+on desktop i mostly prefer MacOS, NixOS, Fedora, and Debian. for servers i run NixOS because it's just so convenient. i also run Windows for gaming. i previously used Arch rather than NixOS but it was far too unstable for my liking and i prefer the declarative approach that NixOS offers.
 
-if anti-cheat worked on Linux i would probably switch to it full-time. maybe. though Mac gaming is actually starting to look surprisingly promising 👀 i got RDR2 running at ultra graphics at a decent framerate on my MacBook earlier 👀👀 but it does suffer from the same issues Linux has with anti-cheat.
+if game anti-cheat worked on Linux i would probably switch to it full-time. maybe. though i still need Logic Pro and Final Cut, which are macOS-exclusive.
 
 ### desktop
 
