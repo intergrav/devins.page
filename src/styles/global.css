@@ -1,12 +1,12 @@
 /* color palette */
 
 :root {
-	--sc_prose_background-color: #f2dccf;
+	--sc_prose_background-color: #f3e2d8;
 	--sc_prose_border-color: #bb9d99;
 }
 
 body {
-	background-color: #f9eae1;
+	background-color: #fdf4ef;
 	color: #56393a;
 }
 
